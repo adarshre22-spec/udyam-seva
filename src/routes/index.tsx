@@ -417,12 +417,9 @@ function Index() {
       {/* 2. OFFICIAL TOP HEADER WITH CUSTOM LOGO */}
       <header className="bg-[#002147] text-white border-b-2 border-[#FF9933]">
         <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <img
-              src="/udyam-logo.jpg.png"
-              alt="Udyam Seva Logo"
-              className="h-16 w-auto object-contain border border-blue-900 bg-white"
-            />
+          <div className="flex flex-col font-sans">
+            <h1 className="text-2xl font-bold tracking-wide">Udyam Seva</h1>
+            <p className="text-sm">सपनों से सफलता तक</p>
           </div>
         </div>
       </header>
